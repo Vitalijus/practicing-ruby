@@ -7,7 +7,7 @@ class EmailReport < Report
     end
 
     def email_banner
-        "\n\n...........................................................\n\n"
+        "\n\n..........................................................\n\n"
     end
 
     def formatted_output
