@@ -1,4 +1,5 @@
 require 'minitest/autorun'
+require 'rspec'
 require_relative 'test_answers'
 
 class Answers
@@ -9,7 +10,7 @@ class Answers
 		ANSWERS.sample
   	end
 
-  	private 
+  	private
 
   	def is_question_valid?(question)
   		question.is_a?(String) && question[-1] == "?"
